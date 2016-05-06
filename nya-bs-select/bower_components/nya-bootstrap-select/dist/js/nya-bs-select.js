@@ -536,7 +536,7 @@ nyaBsSelect.directive('nyaBsSelect', ['$parse', '$document', '$timeout', '$compi
         searchBox = jqLite(SEARCH_BOX);
 
         if(tAttrs.noSearchTitle) {
-            NO_SEARCH_RESULT = NO_SEARCH_RESULT.replace('NO SEARCH RESULT22', tAttrs.noSearchTitle);
+            NO_SEARCH_RESULT = NO_SEARCH_RESULT.replace('NO SEARCH RESULT', tAttrs.noSearchTitle);
         } else if (tAttrs.noSearchTitleTpl) {
             NO_SEARCH_RESULT = NO_SEARCH_RESULT.replace('NO SEARCH RESULT', tAttrs.noSearchTitleTpl);
         }else {
